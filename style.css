@@ -19,7 +19,6 @@ main > img {
   top: 44px;
   border-radius: 10px 10px 0px 0px;
 }
-
 main > h1 {
   position: absolute;
   width: 178.06px;
@@ -36,7 +35,6 @@ main > h1 {
 
   color: #ffffff;
 }
-
 main > p {
   position: absolute;
   width: 178.06px;
@@ -53,7 +51,6 @@ main > p {
 
   color: #f3bf99;
 }
-
 main > .button1 {
   display: flex;
   flex-direction: row;
@@ -74,4 +71,84 @@ main > .button1 {
 
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+}
+main > .button1 > img {
+  position: static;
+  width: 16px;
+  height: 16px;
+  left: 92.5px;
+  top: 9px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.about > h1 {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 151px;
+  top: 535px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  color: #F5F5F5;
+}
+.about > p {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 151px;
+  top: 561px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%; /* or 15px */
+  color: #DCDCDC;
+}
+.intrests > h1 {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 151px;
+  top: 649px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%; /* or 24px */
+  color: #F5F5F5;
+}
+.intrests > p {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 151px;
+  top: 675px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%; /* or 15px */
+  color: #DCDCDC;
+}
+
+.footer {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
 }
