@@ -3,7 +3,13 @@ import React from 'react'
 export default function Footer() {
   return(
     <div className="footer">
-      Footer (social icons)
+      <div className="footer-img">
+        <img src=""/>
+        <img src=""/>
+        <img src=""/>
+        <img src=""/>
+        <img src=""/>
+      </div>
     </div>
   )
 }
